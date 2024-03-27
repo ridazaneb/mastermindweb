@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mastermind</title>
+  <link rel="stylesheet" href="mastermindweb.css">
+</head>
+
+<body>
+  <h1>Mastermind</h1>
+
+  <div class="instructions">
+    <h2>Instructions</h2>
+    <p>Guess the secret code by selecting colors and submitting your guess. You have 5 attempts. Drag the pegs from the selection below. A red peg indicates a correct color in the correct position. A black peg indicates a correct color in the wrong position.</p>
+  </div>
+
+  <div class="game-board">
+    <!-- Grid for game board -->
+  </div>
+  <button id="submit-guess">Submit Guess</button>
+
+  <div id="color-palette">
+    <!-- Color palette -->
+    <div class="draggable-color" draggable="true" style="background-color: red;"></div>
+    <div class="draggable-color" draggable="true" style="background-color: blue;"></div>
+    <div class="draggable-color" draggable="true" style="background-color: green;"></div>
+    <div class="draggable-color" draggable="true" style="background-color: yellow;"></div>
+    <div class="draggable-color" draggable="true" style="background-color: orange;"></div>
+    <div class="draggable-color" draggable="true" style="background-color: purple;"></div>
+  </div>
+
+  <script src="mastermindweb.js"></script>
+</body>
+
+</html>
