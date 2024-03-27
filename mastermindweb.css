@@ -1,0 +1,93 @@
+body {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
+  background-color: #F0E649;
+}
+
+h1 {
+  color: blue;
+}
+
+.game-board {
+  margin-top: 20px;
+}
+
+.row-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  margin: 2px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px dashed #000;
+}
+
+.feedback-box {
+  margin-left: 10px;
+}
+
+.feedback-grid {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
+  gap: 2px;
+}
+
+.feedback-peg {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid #000;
+  margin-right: 3px;
+}
+
+.feedback-row {
+  margin-top: 10px;
+  text-align: left;
+}
+
+.draggable-color {
+  width: 40px;
+  height: 40px;
+  margin: 2px;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: move;
+}
+
+.secret-code-container {
+  margin-top: 20px;
+}
+
+.secret-code-pegs {
+  display: flex;
+  justify-content: center;
+}
+
+.secret-code-pegs .cell {
+  margin-right: 10px;
+}
+
+.instructions {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.instructions h2 {
+  font-size: 24px;
+}
+
+.instructions p {
+  margin-bottom: 10px;
+}
